@@ -1,0 +1,168 @@
+/*-------------------------
+   products Styles
+-------------------------*/
+
+
+.umart-products{
+   background-color: var(--color-secondary);
+   .prducts-detail{
+      margin-bottom: 45px;
+      .detail-title{
+         font-size: 18px;
+         font-weight: 400;
+         line-height: 22px;
+         color: var(--color-title);
+         margin-bottom: 10px;
+      }
+      ul{
+         li{
+            a{
+               font-size: 14px;
+               font-weight: 400;
+               line-height: 22px;
+               color: var(--color-icon);
+               transition: var(--transition);
+               &:hover{
+                  color: var(--color-hover2);
+               }
+               .circle{
+                  height: 16px;
+                  width: 16px;
+                  border-radius: 100%;
+               }
+               .color-1{
+                  background-color: var(--product-color1);
+               }
+               .color-2{
+                  background-color: var(--product-color2);
+               }
+               .color-3{
+                  background-color: var(--product-color3);
+               }
+               .color-4{
+                  background-color: var(--product-color4);
+               }
+               .color-5{
+                  background-color: var(--product-color5);
+               }
+               .color-6{
+                  height: 16px;
+                  width: 16px;
+                  background-color: var(--color-secondary);
+                  border-radius: 100%;
+                  border: 1px solid var(--product-border2);
+               }
+               .text{
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 22px;
+                  color: var(--color-icon);
+               }
+            }
+            .style-2{
+               font-size: 14px;
+               font-weight: 700;
+               color: var(--color-secondary);
+               background-color: var(--color-primary);
+               padding: 0 10px;
+               transition: var(--transition);
+               border-radius: 20px;
+               &:hover{
+                  background-color: var(--color-hover2);
+                  color: var(--color-secondary);
+               }
+            }
+            .spacing{
+               margin-bottom: 10px;
+            }
+         }
+         .style{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+         }   
+      }
+      .spacing-2{
+         display: flex;
+         gap: 5px;
+         margin-bottom: 8px; 
+      }
+   }
+   .border-1{
+      border: 1px solid var(--color-border);
+      margin-bottom: 45px;
+   }
+   .pic-text-wrap{
+      margin-bottom: 80px;
+      display: flex;
+      gap: 60px;
+      align-items: center;
+      justify-content: end;
+      .detail-text{
+         .title{
+            line-height: 20px;
+            margin: 0 0 15px 0;
+            color: var(--color-primary);
+            font-weight: 400;
+         }
+      }
+      .pic-wrap{
+         display: flex;
+         gap: 8px;
+         margin-bottom: 15px;
+      }
+      .pricing-text{
+         font-size: 14px;
+         font-weight: 400;
+         color: var(--color-cloudy-grey);
+         line-height: 20px;
+         margin-bottom: 30px;
+      }
+      .paragraph-text{
+         .paragraph{
+            line-height: 28px;
+            color: var(--color-cloudy-grey);
+         }
+      }
+      .button-wrap{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+         .seletion-btn{
+            a{
+               gap: 10px;
+               display: flex;
+               align-items: center;
+               padding: 10.5px 16px;
+               background-color: var(--color-primary);
+               i{
+                  font-size: 24px;
+                  color: var(--color-secondary);
+               }
+               .seletion-btn-text{
+                  font-size: 18px;
+                  color: var(--color-secondary);
+                  line-height: 19px;
+               }
+            }
+         }
+         .show-btn{
+            a{
+               font-weight: 400;
+               font-size: 18px;
+               color: var(--color-primary);
+               line-height: 19px;
+            }
+            .show-more-border{
+               border: 1px solid var(--color-border);
+            }
+         } 
+      }
+   }
+   .bottom-spacing{
+      margin-bottom: 30px;
+   }
+}
+
+
+

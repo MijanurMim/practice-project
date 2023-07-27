@@ -1,0 +1,56 @@
+/*-------------------------
+   products Styles
+-------------------------*/
+
+.umart-products-4{
+   background-color: var(--color-secondary);
+   .product-title{
+      .title{
+         font-size: 22px;
+         font-weight: 400;
+         line-height: 26px;
+         color: var(--color-primary);
+      }
+   }
+   .text-wrap{
+      display: flex;
+      gap: 30px;
+      .date{
+         font-size: 14px;
+         color: var(--color-border);
+         line-height: 18px;
+         position: relative;
+         margin-left: 48px;
+         &::before{
+            content: "";
+            position: absolute;
+            width: 40px;
+            height: 1px;
+            right: 107px;
+            top: 38%;
+            transform: translateY(-50%);
+            background-color: var(--color-border);
+         }
+      }
+   }
+   .pic-paragraph{
+      .paragraph{
+         color: var(--color-cloudy-grey);
+         font-size: 16px;
+         line-height: 20px;
+         margin: 0;
+      }
+   }
+   .border-1{
+      border: 1px solid var(--color-border);
+   }
+   .bottom-spacing{
+      margin-bottom: 30px;
+   }
+   .bottom-spacing-2{
+      margin-bottom: 55px;
+   }
+}
+
+
+

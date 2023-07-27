@@ -1,0 +1,98 @@
+/*-------------------------
+   contacts Styles
+-------------------------*/
+.umart-contacts{
+ background-color: var(--color-secondary);
+   .banner-title{
+      padding: 0 0 0 128px;
+      margin-bottom: 80px;
+      .title{
+         color: var(--color-primary);
+         font-weight: 400;
+      }
+   }
+   .contact-text{
+      .paragraph{
+         font-size: 16px;
+         color: var(--color-cloudy-grey);
+         line-height: 26px;
+         a{
+            color: var(--product-color5);
+            font-size: 16px;
+            border-bottom: 1px solid var(--product-color5);
+         }
+      }
+   }
+   .pic-wrap{
+      .pic-holder{
+         margin-bottom: 25px;
+         position: relative;
+         overflow: hidden;
+         a{
+            width: 100%;
+            img{
+              transition: var(--transition);
+              transform: scale(1);
+              overflow: hidden;
+              width: 100%;
+            }
+         }
+         &:hover{
+            img{
+               transform: scale(1.05);
+            }
+         }
+         .click-more{
+            position: relative;
+            bottom: 78px;
+            left: 56px;
+            ul{
+               display: flex;
+               gap: 30px;
+               li{
+                  a{
+                     opacity: 0;
+                     visibility: hidden;
+                     position: absolute;
+                     color: var(--product-color5);
+                     top: 40%;
+                     transform: translateY(-40%);
+                     margin: auto;
+                     font-size: 12px;
+                     transition: 0.3s;
+                     z-index: 4;
+                  }
+               } 
+            }
+         }
+        &:hover{
+            .click-more{
+               a{
+                 opacity: 1;
+                 visibility: visible;
+                 transform: translateY(-50%);
+                 top: 50%;
+               }
+            }
+         }
+      }
+      .details{
+         text-align: center;
+         .pic-text{
+            color: var(--color-primary);
+         }
+         .style{
+            margin-bottom: 10px;
+         }
+         .style-2{
+            font-size: 12px;
+         }
+      }
+   }
+   .bottom-spacing{
+      margin-bottom: 30px;
+   }
+   .bottom-spacing-2{
+      margin-bottom: 55px;
+   }
+}

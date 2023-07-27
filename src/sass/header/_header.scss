@@ -1,0 +1,219 @@
+/*-------------------------
+   Header Styles
+-------------------------*/
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.umart-header {
+  padding: 35px 160px;
+  background-color: var(--color-secondary);
+  .header-search-icon {
+    a {
+      position: relative;
+      z-index: 1;
+      font-size: 24px;
+      color: var(--color-primary);
+
+      &::after {
+        content: "";
+        width: 50px;
+        height: 50px;
+        left: -13px;
+        top: -12px;
+
+        background-color: var(--color-primary);
+        transform: scale(0);
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;
+        transition: var(--transition);
+      }
+      &:hover {
+        color: var(--color-secondary);
+        &::after {
+          transform: scale(1);
+        }
+      }
+    }
+  }
+
+  .header-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .header-main-nav {
+      .mainmenu {
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+        display: flex;
+        li {
+          padding: 5px 0;
+          a {
+            gap: 8px;
+            display: flex;
+            white-space: nowrap;
+            align-items: center;
+            transition: var(--transition);
+
+            // &:hover{
+            //     color: var(--active-color);
+
+            // }
+            .menu-text {
+              color: var(--color-primary);
+            }
+            i {
+              font-size: 24px;
+              color: var(--color-icon);
+            }
+          }
+        }
+        .menu-item-has-children {
+          position: relative;
+          .umart-submenu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #ffffff;
+            z-index: -1;
+            opacity: 0;
+            visibility: hidden;
+            min-width: 250px;
+            padding: 15px 10px;
+            border-radius: 4px;
+            box-shadow: 0px 4px 10px rgba(37, 47, 63, 0.1);
+            transition: all 0.3s ease-in-out;
+            list-style: none;
+            pointer-events: none;
+            li {
+              margin: 0;
+              a {
+                position: relative;
+                font-size: 15px;
+                text-transform: capitalize;
+                color: var(--color-heading);
+                font-weight: 500;
+                padding: 5px 15px;
+                border-radius: 4px;
+                display: block;
+                transition: all 0.3s ease-in-out;
+                z-index: 1;
+                overflow: hidden;
+                &:hover {
+                  color: var(--product-color5);
+                  // background: var(--color-secondary);
+                }
+                &.active {
+                  color: var(--product-color5);
+                  &:hover {
+                    color: var(--product-color5);
+                  }
+                }
+              }
+            }
+          }
+          &:hover {
+            .umart-submenu {
+              top: 90%;
+              opacity: 1;
+              visibility: visible;
+              z-index: 9;
+              pointer-events: all;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //   Header left icons
+  .header-left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    img {
+      width: 46.001px;
+      height: 22.102px;
+    }
+
+    span {
+      color: #1c1c1c;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+  .header-right {
+    ul {
+      justify-content: end;
+      display: flex;
+      gap: 10px;
+
+      li {
+        a {
+          text-align: center;
+          // font-family: Clash Display;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 30px; /* 150% */
+          color: var(--color-primary);
+        }
+      }
+
+      li {
+        a {
+          img {
+            height: 25px;
+            width: 25px;
+          }
+        }
+      }
+    }
+
+    .side-icons {
+      ul {
+        justify-content: end;
+        display: flex;
+        gap: 28px;
+        li {
+          a {
+            position: relative;
+            z-index: 1;
+            font-size: 24px;
+            color: var(--color-primary);
+            &::after {
+              content: "";
+              width: 50px;
+              height: 50px;
+              left: -13px;
+              top: -12px;
+              background-color: var(--color-primary);
+              transform: scale(0);
+              border-radius: 50%;
+              position: absolute;
+              z-index: -1;
+              transition: var(--transition);
+            }
+            &:hover {
+              color: var(--color-secondary);
+              &::after {
+                transform: scale(1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

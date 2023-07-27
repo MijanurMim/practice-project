@@ -1,0 +1,66 @@
+/*-------------------------
+    Variables
+-------------------------*/
+:root {
+  // Color
+
+  --color-primary: #222222;
+  --color-secondary: #fff;
+  --color-soft-peach: #efefef;
+  --color-icon: #777777;
+  --color-background: #f0f0f0;
+  --color-cloudy-grey: #6c6768;
+  --color-hover: #b5b5b5;
+  --color-hover2: #e79804;
+  --color-border: #d9d9d9;
+  --active-color: #175cff;
+  --product-color1: #1e73be;
+  --product-color2: #736751;
+  --product-color3: #c0c0c0;
+  --product-color4: #05ac92;
+  --product-color5: #dc9814;
+  --product-border2: #cccccc;
+  --color-primary-green: #c8f031;
+  --text-light: #838489;
+
+  --text-dark: #1c1c1d;
+
+  // Gradient Color
+
+  // Border
+  --border-light: 1px solid #d9d9d9;
+
+  //Font Family
+
+  --font-primary: "Maison Neue Book";
+
+  // Transition
+  --transition: all 0.3s ease-in-out;
+
+  //Fonts Size
+  --font-body-1: 16px;
+  --font-body-2: 18px;
+
+  // Line Height
+  --line-height-b1: 24px;
+  --line-height-b2: 1.1;
+
+  // Heading Font
+
+  --h1: 60px;
+  --h2: 28px;
+  --h3: 24px;
+  --h4: 20px;
+  --h5: 16px;
+  --h6: 14px;
+}
+
+// Layouts Variation
+$smlg-device: "only screen and (max-width: 1199px)";
+$extra-device: "only screen and (min-width: 1600px) and (max-width: 1919px)";
+$laptop-device: "only screen and (min-width: 1200px) and (max-width: 1599px)";
+$lg-layout: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$md-layout: "only screen and (max-width: 991px)";
+$sm-layout: "only screen and (max-width: 767px)";
+$large-mobile: "only screen and (max-width: 575px)";
+$small-mobile: "only screen and (max-width: 479px)";

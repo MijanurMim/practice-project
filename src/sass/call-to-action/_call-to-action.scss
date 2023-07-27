@@ -1,0 +1,36 @@
+
+
+
+.umart-call-to-action{
+
+	.image-holder{
+		position: relative;
+		.pic-text{
+			position: absolute;
+		    top: 50px;
+		    left: 50px;
+			.pic-text-detail{
+				display: flex;
+				gap: 13px;
+				.pencil-icon{
+					font-size: 24px;
+					color: var(--color-icon);
+				}
+				.text{
+					color: var(--color-primary);
+				}
+			}
+			.spacing{
+				margin-bottom: 9px;
+			}
+			.big-text{
+				.big-text-detail{
+					color: var(--color-primary);
+					font-size: 40px;
+					font-weight: 700;
+					line-height: 45px;
+				}
+			}
+		}
+	}
+}

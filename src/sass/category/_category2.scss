@@ -1,0 +1,74 @@
+
+/*-------------------------
+   category Styles
+-------------------------*/
+
+
+.umart-category-2{
+   background-color: var(--color-secondary);
+   .image-holder{
+      position: relative;
+      .pic-text-1{
+         top: 30px;
+         position: absolute;
+         left: 30px;
+         .text-details-1{
+            color: var(--color-primary);
+            font-weight: 400;
+         }
+      }
+      .pic-text-2{
+         position: absolute;
+         bottom: 30px;
+         left: 30px;
+         a{
+            .text-details-2{
+               font-size: 24px;
+               color: var(--color-cloudy-grey);
+               font-weight: 700
+            }
+         }
+      }
+   }
+   .spacing{
+      margin-bottom: 30px;
+   }
+   .spacing-2{
+      margin-bottom: 32px;
+   }
+   .cate-pic-holder{
+      position: relative;
+      .pic-text{
+         a{
+            position: absolute;
+            top: 0px;
+            background: rgba(34, 34, 34, 0.63);
+            opacity: 0.7;
+           .text-detail{
+               color: var(--color-secondary);
+               font-weight: 700;
+               font-size: 24px;
+               line-height: 34px;
+            } 
+         }
+         .spacing-1{
+            padding: 75px 59px 76px 59px;
+         }
+         .spacing-2{
+            padding: 75px 20px 76px 20px;
+         }
+         .spacing-3{
+            padding: 75px 70px 76px 66px;
+         }
+         .spacing-4{
+            padding: 75px 66px 76px 65px;
+         }
+         .spacing-5{
+            padding: 75px 28px 76px 30px;
+         }
+         .spacing-6{
+            padding: 75px 70px 76px 62.5px;
+         }
+      }
+   }
+}

@@ -1,0 +1,73 @@
+/*-------------------------
+   Recent-products Styles
+-------------------------*/
+
+
+.umart-recent-products{
+   background-color: var(--color-secondary);
+   .recent-products-wrap{
+      display: flex;
+      gap: 10px;
+      a{
+         i{
+            font-size: 24px;
+            color:var(--color-icon) ;
+         }
+      }
+   }
+   .recent-products-icon-wrap{
+      ul{
+         justify-content: end;
+         display: flex;
+         gap: 15px;
+         li{
+            a{
+               transition: var(--transition);
+               background-color: transparent;
+               padding: 5px 8.5px;
+               display: flex;
+               gap: 8px;
+               &:hover{
+                  transition: var(--transition);
+                  background-color: var(--color-soft-peach);
+                  padding: 5px 8.5px;
+               }
+               .icon-text{
+                  color: var(--color-primary);
+               }
+            }
+         }
+      }
+   }
+   .image-holder{
+      margin-bottom: 20px;
+   }
+   .product-detail-wrap{
+      .product-icon-wrap{
+         justify-content: space-between;
+         margin-bottom: 12px;
+         display: flex;
+         .product-name{
+            font-weight: 400;
+            line-height: 20px;
+            color: var(--color-cloudy-grey);
+            margin: 0;
+         }
+         a{
+            color: var(--color-icon);
+         }
+      }
+      .product-price{
+         .price{
+            color: var(--color-cloudy-grey);
+            font-weight: 700;
+         }
+      }
+   }
+   .spacing{
+      margin-bottom: 31px;
+   }
+}
+
+
+

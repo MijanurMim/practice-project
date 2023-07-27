@@ -1,0 +1,58 @@
+
+
+
+.umart-feature{
+	.pic-text-wrap{
+		margin-bottom: 55px;
+		text-align: center;
+		.pic-holder{
+			margin-bottom: 30px;
+		}
+		.style{
+			text-align: right;
+		}
+		.title{
+			font-size: 22px;
+		    font-weight: 400;
+		    line-height: 26px;
+		    color: var(--color-primary);
+		    margin: 20px;
+		}
+		.date{
+			font-size: 14px;
+		    color: var(--color-border);
+		    line-height: 18px;
+		}
+	}
+	.pic-details{
+		text-align: center;
+		.paragraph{
+			color: var(--color-primary);
+		    font-size: 16px;
+		    line-height: 26px;
+		    margin: 0;
+		}
+		.spacing-1{
+			margin-bottom: 30px;
+		}
+		.spacing-2{
+			margin-bottom: 55px;
+	    }
+		.title-2{
+			font-size: 22px;
+		    font-weight: 400;
+		    line-height: 26px;
+		    color: var(--color-primary);
+		}
+	}
+	.pic-holder{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.style{
+		text-align: right;
+	}
+	.style-2{
+		text-align: left;
+	}
+}

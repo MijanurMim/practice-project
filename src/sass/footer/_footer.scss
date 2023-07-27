@@ -1,0 +1,49 @@
+/*-------------------------
+   Footer Styles
+-------------------------*/
+
+
+.umart-footer{
+    padding: 48px 110px 48px 156px;
+    background-color: var(--color-primary);
+    .footer-wrap{
+        display: flex;
+        .footer-icon-wrap{
+            padding-right: 610px;
+            ul{
+                gap: 40px;
+                display: flex;
+                li{
+                    display: flex;
+                    gap: 5px;
+                    a{
+                        transition: var(--transition);
+                        color: var(--color-secondary);
+                        &:hover {
+                            color: var(--color-hover);
+                        }
+                    }
+                    .add-style{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        .social-media-icon-wrap{
+            ul{
+                gap: 20px;
+                display: flex;
+                li{
+                    a{
+                        font-size: 24px;
+                        color: var(--color-secondary);
+                        transition: var(--transition);
+                        &:hover{
+                            color: var(--color-hover);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}   

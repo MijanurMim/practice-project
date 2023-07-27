@@ -1,0 +1,8 @@
+
+package-lock.json
+yarn.lock
+node_modules
+trash
+src/.DS_Store
+public
+bowser_components

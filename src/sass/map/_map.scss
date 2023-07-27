@@ -1,0 +1,17 @@
+/*-------------------------
+   Map Styles
+-------------------------*/
+.umart-map{
+   .title{
+      color: var(--color-primary);
+      font-weight: 400;
+      line-height: 26px;
+   }
+   .map{
+     >iframe{
+         height: 550px;
+         width:  1290px;
+     }
+   }
+}
+

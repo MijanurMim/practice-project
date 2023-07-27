@@ -1,0 +1,19 @@
+
+/*-------------------------
+   banner-4 Styles
+-------------------------*/
+
+.umart-banner-4{
+    background-color: var(--color-secondary);
+    .banner-title{
+        padding: 0 0 0 128px;
+        margin-bottom: 80px;
+        .title{
+            color: var(--color-primary);
+            font-weight: 400;
+        }
+    }
+    .pic-holder{
+        text-align: center;
+    }
+}

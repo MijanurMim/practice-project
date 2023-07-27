@@ -1,0 +1,19 @@
+/*-------------------------
+   Header-top Styles
+-------------------------*/
+
+
+.umart-header-top{
+    background-color: var(--color-primary);
+    padding: 10px 0;
+    .header-top-style-1{
+        text-align: center;
+        .header-top-title{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18.59px;
+            color: var(--color-secondary);
+            font-family: var(--font-primary);
+        }
+    } 
+}
