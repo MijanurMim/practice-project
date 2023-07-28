@@ -4,10 +4,6 @@ Footer #} {% block head %}{% endblock %} {# Body Class Add #} {% block attribute
 %}class="sticky-header"{% endblock %} {% block content %}
 
 <!--=====================================-->
-<!--=        Header-top Area Start       	=-->
-<!--=====================================-->
-<!-- {% include 'header/header-top-layout1.html' %} -->
-<!--=====================================-->
 <!--=        Header Area Start       	=-->
 <!--=====================================-->
 {% include 'header/header-layout1.html' %}
@@ -19,21 +15,20 @@ Footer #} {% block head %}{% endblock %} {# Body Class Add #} {% block attribute
 <!--=        About Area Start       	=-->
 <!--=====================================-->
 {% include 'sections/about/about.html' %}
+
 <!--=        Service Area Start       	=-->
 <!--=====================================-->
 {% include 'sections/service/service.html' %}
+
+<!--=        latest Projects Area Start       	=-->
 <!--=====================================-->
-<!--=       Recent-products Area Start  =-->
+{% include 'sections/latestProjects/latestProjects.html' %}
+
+<!--=        Teams Area Start       	=-->
 <!--=====================================-->
-<!-- {% include 'sections/recent-products/recent-products-layout1.html' %} -->
+{% include 'sections/teams/teams.html' %}
 <!--=====================================-->
-<!--=       Load-more Area Start  =-->
-<!--=====================================-->
-<!-- {% include 'sections/load-more/load-more-layout1.html'
-%}===================================== -->
-<!--=       Call-to-action Area Start  =-->
-<!--=====================================-->
-<!-- {% include 'sections/call-to-action/call-to-action-layout1.html' %} -->
+
 <!--=====================================-->
 <!--=        Footer Area Start       	=-->
 <!--=====================================-->

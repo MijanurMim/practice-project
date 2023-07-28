@@ -1,0 +1,31 @@
+.latest-projects-container {
+  padding: 60px 195px;
+}
+
+.latest-projects-top {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    h2 {
+      // font-family: Clash Display;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 54px; /* 112.5% */
+      text-transform: capitalize;
+    }
+
+    p {
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 144.444% */
+      text-transform: capitalize;
+    }
+  }
+}
+
+.latest-projects-img {
+}

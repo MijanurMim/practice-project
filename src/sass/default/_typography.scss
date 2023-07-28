@@ -2,23 +2,21 @@
     Typography
 -------------------------*/
 @font-face {
-    font-family: 'Maison Neue Book';
-    src: url('fonts/MaisonNeue-Book.woff2') format('woff2'),
-        url('fonts/MaisonNeue-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Maison Neue Book";
+  src: url("fonts/MaisonNeue-Book.woff2") format("woff2"),
+    url("fonts/MaisonNeue-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
-    font-family: var(--font-primary);    
-    font-size: var(--font-body-1);
-    line-height: var(--line-height-b1);
-    color: var(--color-body);
-    font-weight: 400;
-    height: 100%;
-    
-    
+  font-family: var(--font-primary);
+  font-size: var(--font-body-1);
+  line-height: var(--line-height-b1);
+  color: var(--color-body);
+  font-weight: 400;
+  height: 100%;
 }
 
 h1,
@@ -39,7 +37,7 @@ pre,
 blockquote,
 table,
 hr {
-    margin: 0 0 20px 0;
+  margin: 0 0 20px 0;
 }
 
 h1 a,
@@ -48,7 +46,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: inherit;
+  color: inherit;
 }
 
 h1,
@@ -57,84 +55,71 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-primary);
-    font-weight: 500;
-    letter-spacing: -0.025em;
-    color: var(--color-primary);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  color: var(--color-primary);
 }
-
 
 h1,
 .h1 {
-    font-size: var(--h1);
-    line-height: 68px;
-   
+  font-size: var(--h1);
+  line-height: 68px;
 }
 
 h2,
 .h2 {
-    font-size: var(--h2);
-    line-height: 35px;
-   
-
+  font-size: var(--h2);
+  line-height: 35px;
 }
 
 h3,
 .h3 {
-    font-size: var(--h3);
-    line-height: 1.2;
-    
-
+  font-size: var(--h3);
+  line-height: 1.2;
 }
 
 h4,
 .h4 {
-    font-size: var(--h4);
-    line-height: 25px;
-    
-
+  font-size: var(--h4);
+  line-height: 25px;
 }
 
 h5,
 .h5 {
-    font-size: var(--h5);
-    line-height: 1.4;
-   
-
+  font-size: var(--h5);
+  line-height: 1.4;
 }
 
 h6,
 .h6 {
-    font-size: var(--h6);
-    line-height: 1.2;
- 
- 
+  font-size: var(--h6);
+  line-height: 1.2;
 }
 
-
 p {
-    font-size: var(--font-body-2);
-    line-height: var(--line-height-b1);
-    margin: 0 0 40px 0;
+  font-size: var(--font-body-2);
+  line-height: var(--line-height-b1);
+  margin: 0 0 40px 0;
 }
 
 .body-font1 {
-    font-size: var(--font-body-1);
-    line-height: var(--line-height-b1);
+  font-size: var(--font-body-1);
+  line-height: var(--line-height-b1);
 }
 .body-font2 {
-    font-size: var(--font-body-2);
-    line-height: var(--line-height-b1);
+  font-size: var(--font-body-2);
+  line-height: var(--line-height-b1);
 }
 .body-font3 {
-    font-size: var(--font-body-3);
-    line-height: var(--line-height-b3);
+  font-size: var(--font-body-3);
+  line-height: var(--line-height-b3);
 }
 .body-font4 {
-    font-size: var(--font-body-4);
-    line-height: var(--line-height-b3);
+  font-size: var(--font-body-4);
+  line-height: var(--line-height-b3);
 }
-   
+
 h1,
 h2,
 h3,
@@ -153,7 +138,7 @@ pre,
 blockquote,
 table,
 hr {
-    margin: 0 0 20px 0;
+  margin: 0 0 20px 0;
 }
 
 h1 a,
@@ -162,7 +147,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: inherit;
+  color: inherit;
 }
 
 h1,
@@ -171,80 +156,67 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-primary);
-    font-weight: 500;
-    letter-spacing: -0.025em;
-    color: var(--color-text-dark);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  color: var(--color-text-dark);
 }
-
 
 h1,
 .h1 {
-    font-size: var(--h1);
-    line-height: 1.2;
-   
+  font-size: var(--h1);
+  line-height: 1.2;
 }
 
 h2,
 .h2 {
-    font-size: var(--h2);
-    line-height: 1.2;
-   
-
+  font-size: var(--h2);
+  line-height: 1.2;
 }
 
 h3,
 .h3 {
-    font-size: var(--h3);
-    line-height: 1.2;
-    
-
+  font-size: var(--h3);
+  line-height: 1.2;
 }
 
 h4,
 .h4 {
-    font-size: var(--h4);
-    line-height: 1.2;
-    
-
+  font-size: var(--h4);
+  line-height: 1.2;
 }
 
 h5,
 .h5 {
-    font-size: var(--h5);
-    line-height: 1.4;
-   
-
+  font-size: var(--h5);
+  line-height: 1.4;
 }
 
 h6,
 .h6 {
-    font-size: var(--h6);
-    line-height: 1.2;
- 
- 
+  font-size: var(--h6);
+  line-height: 1.2;
 }
 
-
 p {
-    font-size: var(--font-body-2);
-    line-height: var(--line-height-b1);
-    margin: 0 0 30px 0;
+  font-size: var(--font-body-2);
+  line-height: var(--line-height-b1);
+  margin: 0 0 30px 0;
 }
 
 .body-font1 {
-    font-size: var(--font-body-1);
-    line-height: var(--line-height-b1);
+  font-size: var(--font-body-1);
+  line-height: var(--line-height-b1);
 }
 .body-font2 {
-    font-size: var(--font-body-2);
-    line-height: var(--line-height-b1);
+  font-size: var(--font-body-2);
+  line-height: var(--line-height-b1);
 }
 .body-font3 {
-    font-size: var(--font-body-3);
-    line-height: var(--line-height-b3);
+  font-size: var(--font-body-3);
+  line-height: var(--line-height-b3);
 }
 .body-font4 {
-    font-size: var(--font-body-4);
-    line-height: var(--line-height-b3);
+  font-size: var(--font-body-4);
+  line-height: var(--line-height-b3);
 }
