@@ -1,0 +1,23 @@
+.footer-bottom {
+  display: flex;
+  padding: 0px 195px;
+  justify-content: space-between;
+
+  .footer-bottom-left {
+    display: flex;
+    gap: 20px;
+    color: #838489;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .footer-bottom-right {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #838489;
+  }
+}
